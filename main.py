@@ -8,7 +8,6 @@ db=sqlite3.connect('database.db')
 
 name=input('Enter name of the person: ')
 mob=input('Enter mobile number of person (Default set): ')
-#mob='8630513308'
 inter=int(input('Enter time interval to check'))
 ready=input('All Ready? (y/n)')
 pth=input('burp file id: ')
